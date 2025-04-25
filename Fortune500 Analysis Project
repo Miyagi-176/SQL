@@ -1,6 +1,7 @@
 SELECT company_name
 FROM fortune_companies
-WHERE paid_time_off_days >=10
+WHERE paid_time_off_days >=20
+AND healthcare_benefits=1
 ;
 
 SELECT company_name,
